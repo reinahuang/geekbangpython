@@ -1,5 +1,5 @@
 !/usr/bin/python
--*- coding:utf-8 -*-
+#-*- coding:utf-8 -*-
 
 # 创建一个函数，用于接收用户输入的数字，并计算用户输入数字的和
 

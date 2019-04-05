@@ -39,3 +39,19 @@ while i <= length:
     i = i + 1
 
 print("The Max number is: " + str(max_num))
+
+
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+# 创建一个函数，传入一个参数n，返回n的阶乘
+def factorial(n):
+    if n == 0 or n ==1:
+        return 1
+    else:
+        return n*factorial(n-1)
+
+
+result = factorial(6)
+print(result)
